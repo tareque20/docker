@@ -43,3 +43,18 @@ docker build -t tareque20/ubuntu .
 ```sh
 docker commit docker_short_id tareque20/ubuntu:1.0.0
 ```
+### Added TAG
+```sh
+docker tag docker_short_id tareque20/ubuntu:1.0.0
+```
+### Login to Docker Hub
+```sh
+docker login --username=tareque20
+```
+### Push Image to Docker Hub
+```sh
+docker push tareque20/ubuntu:1.0.0
+```
+
+### Copy file / directory
+
