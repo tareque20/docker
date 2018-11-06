@@ -1,22 +1,34 @@
 # Containerize simple web application
 
-### Build image:
+### Start all comtainers:
 ```sh
-docker build -t tareque20/webapp:1.0.0 .
+docker-compose up
 ```
-### Check image:
+### Check status of the container manager by docker compose:
 ```sh
-docker images
+docker-compose ps
 ```
-### Run image:
+### See logs:
 ```sh
-docker run -d -p 5000:5000 image_id
+docker-compose logs
 ```
-### Check Docker image:
+### Output append logs:
 ```sh
- docker ps
+ docker-compose logs -f
 ```
-### Enter to image:
+### Output specific container:
 ```sh
- docker exec -it container_id bash
+ docker-compose logs -f tareque20/webapp
+```
+### Stop running containers without removing:
+```sh
+ docker-compose stop
+```
+### Remove all containers:
+```sh
+ docker-compose rm
+```
+### Rebuild all the images:
+```sh
+ docker-compose build
 ```
