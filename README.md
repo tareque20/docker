@@ -31,6 +31,10 @@ docker ps -a
 ```sh
 docker run -d -p 8888:8080 tomcat:8.0
 ```
+### Docker port:
+```sh
+docker port busybox:1.29
+```
 ### See Logs:
 ```sh
 docker logs docker_long_id
@@ -54,6 +58,14 @@ docker login --username=tareque20
 ### Push Image to Docker Hub
 ```sh
 docker push tareque20/ubuntu:1.0.0
+```
+### Logout from the Docker Hub
+```sh
+docker logout
+```
+### Delete Image
+```sh
+docker rmi tareque20/ubuntu:1.0.0
 ```
 
 ### Copy file / directory
