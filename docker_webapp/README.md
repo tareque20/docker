@@ -12,3 +12,11 @@ docker images
 ```sh
 docker run -d -p 5000:5000 image_id
 ```
+### Check Docker image:
+```sh
+ docker ps
+```
+### Enter to image:
+```sh
+ docker exec -it container_id bash
+```
