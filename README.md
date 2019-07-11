@@ -137,3 +137,13 @@ docker logout
 ```sh
 docker rmi tareque20/ubuntu:1.0.0
 ```
+
+
+# Some Tags:
+## Networks:
+> https://medium.com/@caysever/docker-compose-network-b86e424fad82
+> https://docker-k8s-lab.readthedocs.io/en/latest/docker/docker-compose.html
+
+## Volumes
+> https://www.linux.com/learn/docker-volumes-and-networks-compose
+> https://storidge.com/docs/volumes-docker-compose/
